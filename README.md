@@ -45,3 +45,9 @@ Die Vorschau hat absichtlich `noindex,follow`; canonical zeigt die bestehende Un
 Die zweite Version stellt die Anfrage direkt in den Einstieg. Sechs Tasten und ein tastaturbedienbarer Schieberegler steuern denselben Zustand. Display, Auswahl, Hinweis und WhatsApp-Vorlage bleiben synchron. Der optionale Ort wird ausschließlich im DOM gehalten, nicht in Cookies oder Web Storage gespeichert; erst der Klick auf den WhatsApp-Link überträgt ihn als Bestandteil der URL an WhatsApp. Der Besucher schickt die Nachricht anschließend dort selbst ab. Keine Uploads, keine automatische Diagnose und keine Nachrichtenzustellung durch die Website.
 
 Inspiriert von der im Auftrag als Referenz genannten Tissen-Landingpage; die Umsetzung wurde im bestehenden Entwurf neu aufgebaut. Das Hausmotiv bleibt als nachgelagerter Bildband erhalten.
+
+## Überarbeitung 3: regionale Sichtbarkeit und Vertrauen
+
+H1, Leistungsüberschriften, regionale FAQ und sichtbarer Inhaber überarbeitet. JSON-LD verbindet Unternehmen (HVACBusiness/Plumber), Inhaber, Website, Webpage und sechs Services über IDs. Alle Angaben stammen aus sichtbaren Geschäftsdaten; keine erfundenen Ratings. Die Vorschau bleibt noindex. Türkise Lichtflächen und CSS-Perspektive ergänzen den Anfrageregler ohne neue Abhängigkeiten. Bewegungsreduktion schaltet Übergänge und Transformationen ab.
+
+Recherche: sechs regionale Wettbewerber, öffentliche Websites und offizielle Suchmaschinen-Dokumentationen, Stand 01.10.2026. Der ausführliche Maßnahmenplan liegt im separaten Nutzer-Output `Wettbewerb-und-Sichtbarkeit.md`; er ist nicht Teil dieser öffentlichen Unternehmensvorschau.
