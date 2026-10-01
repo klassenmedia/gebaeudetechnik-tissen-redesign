@@ -4,7 +4,7 @@ Ein schlanker, mobil optimierter Onepager für Heizung, Sanitär, Bäder, Klima 
 
 ## Anschauen und bearbeiten
 
-`index.html` direkt öffnen oder in diesem Ordner `python3 -m http.server 8765` starten. Kein Paketmanager, Build-Prozess, CMS oder kostenpflichtiger Website-Dienst erforderlich. Statisches HTML, CSS und ca. 3 KB JavaScript. Läuft auch unter einem GitHub-Pages-Unterpfad.
+`index.html` direkt öffnen oder in diesem Ordner `python3 -m http.server 8765` starten. Kein Paketmanager, Build-Prozess, CMS oder kostenpflichtiger Website-Dienst erforderlich. Statisches HTML, CSS und wenige KB JavaScript. Läuft auch unter einem GitHub-Pages-Unterpfad.
 
 - `index.html`: Texte, Kontaktdaten, strukturierte Unternehmensdaten
 - `styles.css`: Gestaltung und responsive Layouts
@@ -39,3 +39,9 @@ Die Vorschau hat absichtlich `noindex,follow`; canonical zeigt die bestehende Un
 - Favicon und UI-Symbole: als SVG für diesen Entwurf erstellt, kein externes Icon-Paket.
 - Schrift: lokale Systemschriften, keine Downloads und keine externen Schriftlizenzen erforderlich.
 - Kundenstimme Andreas Redikop: kurzer Auszug aus der öffentlich sichtbaren bisherigen Startseite, abgerufen am 01.10.2026. Kein erfundener Bewertungsdurchschnitt und kein AggregateRating-Markup.
+
+## Überarbeitung: Anfrageregler
+
+Die zweite Version stellt die Anfrage direkt in den Einstieg. Sechs Tasten und ein tastaturbedienbarer Schieberegler steuern denselben Zustand. Display, Auswahl, Hinweis und WhatsApp-Vorlage bleiben synchron. Der optionale Ort wird ausschließlich im DOM gehalten, nicht in Cookies oder Web Storage gespeichert; erst der Klick auf den WhatsApp-Link überträgt ihn als Bestandteil der URL an WhatsApp. Der Besucher schickt die Nachricht anschließend dort selbst ab. Keine Uploads, keine automatische Diagnose und keine Nachrichtenzustellung durch die Website.
+
+Inspiriert von der im Auftrag als Referenz genannten Tissen-Landingpage; die Umsetzung wurde im bestehenden Entwurf neu aufgebaut. Das Hausmotiv bleibt als nachgelagerter Bildband erhalten.
