@@ -1,0 +1,4 @@
+# Design preview: allow crawling so the page-level noindex can be read.
+# Before production launch, replace noindex in HTML and create a production sitemap.
+User-agent: *
+Disallow:
